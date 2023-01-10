@@ -1,0 +1,48 @@
+.main-hero-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 10px;
+    @media (max-width: 800px) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-1 {
+        padding-top: 65px;
+       
+       
+        .section1-wrapper {
+            padding: 5px 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            @media (max-width: 800px) {
+             text-align: center;
+            }
+            h2 {
+                font-family: Poppins, sans-serif;
+                color: #df6951;
+                font-size: 1.25rem;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            h1 {
+                font-family: Volkhov, sans-serif;
+                color: #181e4b;
+                font-size: 5.25rem;
+                @media (max-width: 1100px) {
+                    font-size: 3.2rem;
+
+                }
+            }
+        }
+    }
+    .section-2 {
+        img {
+            display: inline-block;
+            max-width: 100%;
+        }
+    }
+}

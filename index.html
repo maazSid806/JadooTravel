@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" href="sass/background- hero-sec-img.jpg" />
+        <link rel="icon" href="sass/" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="index.css" />
+        <title>Jadoo Travel</title>
+        <script>
+            const Switch = () => {
+                var element = document.getElementById("mobileSideBar");
+                element.classList.toggle("active");
+            };
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img
+                    src="https://uploads-ssl.webflow.com/6170700f1a1db6b3a0ac16ed/617938cf6b1c7ac24443ab5a_Jadoo-travel-logo.svg"
+                    loading="lazy"
+                    alt="Jadoo logo"
+                />
+            </div>
+            <nav
+                role="navigation"
+                class="nav_menu w-nav-menu"
+                style="transform: translateY(0px) translateX(0px)"
+            >
+                <a href="#" class="nav_link w-nav-link">Destinations</a
+                ><a href="#" class="nav_link w-nav-link">Hotels</a
+                ><a href="#" class="nav_link w-nav-link">Flights</a
+                ><a href="#" class="nav_link w-nav-link">Bookings</a
+                ><a href="#" class="nav_link w-nav-link">Logins</a
+                ><a href="#" class="nav_link nav-button w-nav-link">Sign up</a
+                ><a href="#" class="nav_link w-nav-link">EN</a>
+            </nav>
+            <button class="switch" onclick="Switch()">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4 6h16M4 12h16M4 18h16"
+                    ></path>
+                </svg>
+            </button>
+        </header>
+        <div id="mobileSideBar" class="mobileNav">
+            <div class="mobile-nav-top-bar">
+                <div class="logo">
+                    <img
+                        src="https://uploads-ssl.webflow.com/6170700f1a1db6b3a0ac16ed/617938cf6b1c7ac24443ab5a_Jadoo-travel-logo.svg"
+                        alt=""
+                    />
+                </div>
+                <button onclick="Switch()">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M4 6h16M4 12h16M4 18h16"
+                        ></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="search something" />
+            </div>
+            <nav>
+                <ul>
+                    <li>Destination</li>
+                    <li>Hotels</li>
+                    <li>Flights</li>
+                    <li>Bookings</li>
+                    <li>Logins</li>
+                    <li>Sign up</li>
+                    <li>EN</li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main-hero-section">
+            <div class="section-1">
+                <div class="section1-wrapper">
+                    <h2>Best destinations around the world</h2>
+                    <h1>Travel enjoy and Live a new and full life</h1>
+
+                    <p>
+                        Built Wicket longer admire do barton vanity itself do in
+                        it. Preferred to sportsmen it engrossed listening. Park
+                        gate sell they west hard for the.
+                    </p>
+                </div>
+            </div>
+            <div class="section-2">
+                <img
+                    src="https://uploads-ssl.webflow.com/6170700f1a1db6b3a0ac16ed/617938cf58e87917dc7a61ec_woman-planes.png"
+                    loading="lazy"
+                    alt="Traveling lady with luggage"
+                />
+            </div>
+        </div>
+    </body>
+</html>

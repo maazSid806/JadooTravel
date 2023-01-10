@@ -1,0 +1,120 @@
+header {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+
+    .nav_menu {
+    display: flex;
+    align-items: center;
+  
+      
+        .nav_link {
+            -webkit-transition: color 200ms ease;
+            transition: color 200ms ease;
+            font-family: Poppins, sans-serif;
+            font-weight: 400;
+        }
+        .w-nav-link {
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            text-decoration: none;
+            color: #222222;
+            padding: 20px;
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .nav_link.nav-button {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border: 1px solid #000;
+            border-radius: 5px;
+        }
+        @media (max-width: 800px) {
+            display: none;
+          }
+       
+      
+    }
+    
+}
+
+.switch {
+    display: none;
+    @media (max-width: 800px) {
+        display: block !important;
+        width: 40px;
+        background-color: transparent;
+        color: black;
+        border: none;
+    }
+}
+.mobileNav {
+    background:orange;
+    width: 100vw;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    position: fixed;
+ 
+    bottom: 100%;
+    left: 0;
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
+    overflow-y: auto;
+    .mobile-nav-top-bar {
+        display: flex;
+        padding: 30px 40px;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+        }
+
+        button {
+            width: 40px;
+            color: black;
+            background-color: transparent;
+            border: none;
+            padding-top: 19px;
+        }
+    }
+    .search-bar {
+        display: flex;
+        padding: 20px 40px;
+        input {
+            width: 100%;
+            align-items: center;
+            background: #e3e6ff;
+            border-radius: 5px;
+            display: flex;
+            gap: 15px;
+            padding: 14px 40px;
+            border: none;
+            outline: none;
+        }
+    }
+    nav {
+        padding-top: 20px;
+
+        ul {
+            display: flex;
+            font-size: 20px;
+            font-family: "Roboto", sans-serif;
+            flex-direction: column;
+            text-align: center;
+            color: black;
+            gap: 40px;
+            li {
+                list-style: none;
+            }
+        }
+    }
+    
+    &.active {
+        bottom: 0;
+    }
+}

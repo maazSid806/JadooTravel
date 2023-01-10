@@ -243,6 +243,18 @@ header .nav_menu .nav_link.nav-button {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+@media (max-width: 1000px) {
+  .Categories-section .Categories-section-wrapper .categories-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .Categories-section .Categories-section-wrapper .categories-bar {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
 .Categories-section .Categories-section-wrapper .categories-bar .card-1 {
   padding: 10px 20px;
 }
@@ -263,6 +275,11 @@ header .nav_menu .nav_link.nav-button {
   font-family: Poppins, sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
+}
+@media (max-width: 500px) {
+  .Categories-section .Categories-section-wrapper .categories-bar .card-1 .card-wrapper h1 {
+    font-size: 10px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

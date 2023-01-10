@@ -28,6 +28,17 @@
             padding-top: 40px;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
+            @media (max-width: 1000px) {
+                          
+                display: grid;
+                grid-template-columns:  1fr 1fr;
+                 }
+                 @media (max-width: 600px) {
+                          
+                    display: grid;
+                    grid-template-columns:  1fr ;
+                     }
+
 
             .card-1 {
                 padding: 10px 20px;
@@ -38,6 +49,7 @@
                     -webkit-transition: box-shadow 300ms ease;
                     transition: box-shadow 300ms ease;
                     text-align: center;
+                   
                     p {
                         font-size: 20px;
                         padding: 10px 10px;
@@ -48,7 +60,13 @@
                         font-family: Poppins, sans-serif;
                         font-size: 1.25rem;
                         font-weight: 500;
-                    }
+                        @media (max-width: 500px) {
+                          
+                            font-size: 10px;
+                            }
+                        }
+                     
+                  
                 }
             }
         }

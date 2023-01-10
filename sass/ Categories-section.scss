@@ -1,0 +1,56 @@
+.Categories-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 100px;
+    .Categories-section-wrapper {
+        max-width: 1340px;
+        margin: 0 auto;
+        .top-bar {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            h1 {
+                font-family: Volkhov, sans-serif;
+                color: #181e4b;
+                font-size: 3.125rem;
+            }
+            p {
+                font-family: Poppins, sans-serif;
+                color: #5e6282;
+                font-size: 1.125rem;
+                font-weight: 500;
+            }
+        }
+
+        .categories-bar {
+            padding-top: 40px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+
+            .card-1 {
+                padding: 10px 20px;
+                .card-wrapper {
+                    
+                    padding: 1.875rem 1.675rem;
+                    border-radius: 2.25rem;
+                    -webkit-transition: box-shadow 300ms ease;
+                    transition: box-shadow 300ms ease;
+                    text-align: center;
+                    p {
+                        font-size: 20px;
+                        padding: 10px 10px;
+                        color: #5e6282;
+                    }
+                    h1 {
+                        padding-top: 10px;
+                        font-family: Poppins, sans-serif;
+                        font-size: 1.25rem;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}

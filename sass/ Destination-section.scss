@@ -23,15 +23,20 @@
         }
 
         .design-item {
-            padding: 40px 0;
+            padding: 40px 10px;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 30px;
             @media (max-width: 992px) {
-                 padding: 15px 10px;         
+                padding: 15px 10px;
                 display: grid;
-                grid-template-columns:  1fr ;
-                 }
+                grid-template-columns: 1fr 1fr;
+            }
+            @media (max-width: 768px) {
+                padding: 15px 20px;
+                display: grid;
+                grid-template-columns: 1fr;
+            }
             .design {
                 display: flex;
                 flex-direction: column;
@@ -41,14 +46,14 @@
                         border-radius: 12px;
                         display: inline-block;
                         width: 100%;
-                      
+                       
                     }
                 }
                 .packages {
                     margin: 10px 10px;
                     display: flex;
                     justify-content: space-between;
-                    p{
+                    p {
                         font-family: Poppins, sans-serif;
                         color: #5e6282;
                     }
@@ -64,7 +69,6 @@
                             font-size: 1.125rem;
                             font-weight: 500;
                         }
-                       
 
                         .desc {
                             display: flex;

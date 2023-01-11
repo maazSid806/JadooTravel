@@ -18,7 +18,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 10px;
+  padding: 10px 15px;
 }
 header .nav_menu {
   display: flex;
@@ -146,7 +146,7 @@ header .nav_menu .nav_link.nav-button {
   padding-top: 65px;
 }
 .main-hero-section .section-1 .section1-wrapper {
-  padding: 0px 10px;
+  padding: 0px 15px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -322,7 +322,7 @@ header .nav_menu .nav_link.nav-button {
   font-size: 3.125rem;
 }
 .Destination-section .destination-section-wrapper .design-item {
-  padding: 40px 10px;
+  padding: 40px 15px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
@@ -406,7 +406,7 @@ header .nav_menu .nav_link.nav-button {
   font-size: 3.125rem;
 }
 .Destination-section .destination-section-wrapper .design-item {
-  padding: 40px 10px;
+  padding: 40px 15px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;

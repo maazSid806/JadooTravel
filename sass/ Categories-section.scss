@@ -43,6 +43,9 @@
             .card-1 {
                 padding: 10px 20px;
                 .card-wrapper {
+                    img{
+                        max-width: 50%;
+                    }
                     
                     padding: 1.875rem 1.675rem;
                     border-radius: 2.25rem;
@@ -51,9 +54,13 @@
                     text-align: center;
                    
                     p {
-                        font-size: 20px;
+                        font-family: Poppins, sans-serif;
                         padding: 10px 10px;
                         color: #5e6282;
+                        @media (max-width: 1000px) {
+                          
+                          font-size: 10px;
+                             }
                     }
                     h1 {
                         padding-top: 10px;
@@ -62,7 +69,7 @@
                         font-weight: 500;
                         @media (max-width: 500px) {
                           
-                            font-size: 10px;
+                            font-size: 15px;
                             }
                         }
                      

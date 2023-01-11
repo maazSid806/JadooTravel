@@ -1,0 +1,54 @@
+.Destination-section {
+    padding-top: 100px;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    .destination-section-wrapper {
+        .top-bar {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            p {
+                font-family: Poppins, sans-serif;
+                color: #5e6282;
+                font-size: 1.125rem;
+                font-weight: 500;
+            }
+            h1 {
+                font-family: Volkhov, sans-serif;
+                color: #181e4b;
+                font-size: 3.125rem;
+            }
+        }
+
+        .design-item {
+            padding: 40px 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+            .design {
+                display: flex;
+                flex-direction: column;
+                .img {
+                    flex: 1;
+                    img {
+                        border-radius: 12px;
+                        display: inline-block;
+                        width: 100%;
+                    }
+                }
+                .packages{
+                   margin: 10px 5px;
+                    display: flex;
+                    justify-content: space-between;
+                .content{
+                   
+                    background-color: white;
+                   
+                }
+            }}
+        }
+    }
+}

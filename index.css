@@ -146,7 +146,7 @@ header .nav_menu .nav_link.nav-button {
   padding-top: 65px;
 }
 .main-hero-section .section-1 .section1-wrapper {
-  padding: 0px 5px;
+  padding: 0px 10px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -553,7 +553,14 @@ header .nav_menu .nav_link.nav-button {
     padding: 15px 10px;
   }
 }
-.Book-section .book-section-wrapper .section-2 img {
+@media (max-width: 992px) {
+  .Book-section .book-section-wrapper .section-2 .img-div {
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+.Book-section .book-section-wrapper .section-2 .img-div img {
   max-width: 100%;
   filter: drop-shadow(34px -21px 36px rgba(89, 177, 230, 0.2)) drop-shadow(-6px 8px 12px rgba(211, 211, 211, 0.5));
 }

@@ -3,7 +3,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 20px 10px;
+    
     @media (max-width: 800px) {
         display: flex;
         flex-direction: column;

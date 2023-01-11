@@ -1,5 +1,4 @@
 .Destination-section {
-    padding-top: 100px;
     max-width: 1440px;
     margin: 0 auto;
 
@@ -28,6 +27,11 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 30px;
+            @media (max-width: 992px) {
+                 padding: 15px 10px;         
+                display: grid;
+                grid-template-columns:  1fr ;
+                 }
             .design {
                 display: flex;
                 flex-direction: column;
@@ -37,18 +41,41 @@
                         border-radius: 12px;
                         display: inline-block;
                         width: 100%;
+                      
                     }
                 }
-                .packages{
-                   margin: 10px 5px;
+                .packages {
+                    margin: 10px 10px;
                     display: flex;
                     justify-content: space-between;
-                .content{
-                   
-                    background-color: white;
-                   
+                    p{
+                        font-family: Poppins, sans-serif;
+                        color: #5e6282;
+                    }
+                    .content {
+                        background-color: white;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+                        font-family: Poppins, sans-serif;
+                        .title {
+                            font-family: Poppins, sans-serif;
+                            color: #5e6282;
+                            font-size: 1.125rem;
+                            font-weight: 500;
+                        }
+                       
+
+                        .desc {
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+                            font-family: Poppins, sans-serif;
+                            color: #5e6282;
+                        }
+                    }
                 }
-            }}
+            }
         }
     }
 }

@@ -3,6 +3,12 @@
     margin: 0px;
     box-sizing: border-box
 }
+.spacer{
+    padding-top: 150px;
+}
+.spacer-100{
+    padding-top: 100px;
+}
 @import"./sass/ header.scss";
 @import"./sass/ main-hero-section.scss";
 @import"./sass/ Categories-section.scss";

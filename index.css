@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.spacer {
+  padding-top: 150px;
+}
+
+.spacer-100 {
+  padding-top: 100px;
+}
+
 header {
   max-width: 1440px;
   margin: 0 auto;
@@ -126,7 +134,6 @@ header .nav_menu .nav_link.nav-button {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 20px 10px;
 }
 @media (max-width: 800px) {
   .main-hero-section {
@@ -216,7 +223,6 @@ header .nav_menu .nav_link.nav-button {
 .Categories-section {
   max-width: 1440px;
   margin: 0 auto;
-  padding-top: 100px;
 }
 .Categories-section .Categories-section-wrapper {
   max-width: 1340px;
@@ -245,7 +251,7 @@ header .nav_menu .nav_link.nav-button {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-@media (max-width: 1000px) {
+@media (max-width: 992px) {
   .Categories-section .Categories-section-wrapper .categories-bar {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -293,7 +299,6 @@ header .nav_menu .nav_link.nav-button {
 }
 
 .Destination-section {
-  padding-top: 100px;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -321,6 +326,13 @@ header .nav_menu .nav_link.nav-button {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
 }
+@media (max-width: 992px) {
+  .Destination-section .destination-section-wrapper .design-item {
+    padding: 15px 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
 .Destination-section .destination-section-wrapper .design-item .design {
   display: flex;
   flex-direction: column;
@@ -334,12 +346,33 @@ header .nav_menu .nav_link.nav-button {
   width: 100%;
 }
 .Destination-section .destination-section-wrapper .design-item .design .packages {
-  margin: 10px 5px;
+  margin: 10px 10px;
   display: flex;
   justify-content: space-between;
 }
+.Destination-section .destination-section-wrapper .design-item .design .packages p {
+  font-family: Poppins, sans-serif;
+  color: #5e6282;
+}
 .Destination-section .destination-section-wrapper .design-item .design .packages .content {
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: Poppins, sans-serif;
+}
+.Destination-section .destination-section-wrapper .design-item .design .packages .content .title {
+  font-family: Poppins, sans-serif;
+  color: #5e6282;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.Destination-section .destination-section-wrapper .design-item .design .packages .content .desc {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: Poppins, sans-serif;
+  color: #5e6282;
 }
 
 /*# sourceMappingURL=index.css.map */

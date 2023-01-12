@@ -329,7 +329,7 @@ header .nav_menu .nav_link.nav-button {
 }
 @media (max-width: 992px) {
   .Destination-section .destination-section-wrapper .design-item {
-    padding: 15px 10px;
+    padding: 10px 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -413,7 +413,7 @@ header .nav_menu .nav_link.nav-button {
 }
 @media (max-width: 992px) {
   .Destination-section .destination-section-wrapper .design-item {
-    padding: 15px 10px;
+    padding: 10px 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -671,6 +671,50 @@ header .nav_menu .nav_link.nav-button {
 .section-testimonials .section-testimonials-wrapper .section-2 .select-div select {
   border: none;
   color: #5e6282;
+}
+
+.section-logos {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+.section-logos .section-logos-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+@media (max-width: 992px) {
+  .section-logos .section-logos-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .section-logos .section-logos-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 576px) {
+  .section-logos .section-logos-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.section-logos .section-logos-wrapper .logos {
+  padding: 20px 20px;
+}
+@media (max-width: 576px) {
+  .section-logos .section-logos-wrapper .logos {
+    display: flex;
+    justify-content: center;
+  }
+  .section-logos .section-logos-wrapper .logos img {
+    width: 50%;
+  }
+}
+.section-logos .section-logos-wrapper .logos img {
+  max-width: 60%;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,22 +1,10 @@
 .section-testimonials {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0px 30px;
 
     .section-testimonials-wrapper {
         padding: 0px 10px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        @media (max-width: 992px) {
-            padding: 15px 10px;
-            display: grid;
-            grid-template-columns: 1fr ;
-        }
-        @media (max-width: 768px) {
-            padding: 15px 10px;
-            display: grid;
-            grid-template-columns: 1fr ;
-            text-align: center;
-        }
         .section-1 {
             padding-right: 60px;
             padding-left: 15px;
@@ -39,56 +27,33 @@
                 }
             }
         }
-        .section-2 {
+        .testimonial-slider {
             padding-top: 60px;
-            display: flex;
             position: relative;
-            @media (max-width: 768px) {
-                display: flex;
-                justify-content: center;
-            }
-            img{
-                position: absolute;
-               top: 5px;
-            
-            }
-            .section-2-wrapper {
-                position: relative;
-                padding: 50px 70px 30px;
-                border-radius: 10px;
-                box-shadow: 0 5px 18px -2px rgba(0, 0, 0, 0.13);
-                
-               
-                p {
-                    font-family: Poppins, sans-serif;
-                    color: #5e6082;
-                   
+            .item {
+
+                img {
+                    position: absolute;
+                    top: 5px;
+                    border-radius: 50%;
                 }
-                h1 {
-                    padding-top: 18px;
-                    font-family: Poppins, sans-serif;
-                    color: #5e6282;
-                    font-size: 1.125rem;
-                    font-weight: 500;
-                }
-            }
-            .select-div {
-                display: flex;
-                flex-direction: column;
-                border: none;
-                gap:230px;
-                @media (max-width: 768px) {
-                    display: none;
-                  
-                }
-                .up{
-                    transform: rotate(177deg);
-                    border: none;
-                    color: #5e6282;
-                }
-                select{
-                    border: none;
-                    color: #5e6282;
+                .section-2-wrapper {
+                    position: relative;
+                    padding: 50px 70px 30px;
+                    border-radius: 10px;
+                    box-shadow: 0 5px 18px -2px rgba(0, 0, 0, 0.13);
+
+                    p {
+                        font-family: Poppins, sans-serif;
+                        color: #5e6082;
+                    }
+                    h1 {
+                        padding-top: 18px;
+                        font-family: Poppins, sans-serif;
+                        color: #5e6282;
+                        font-size: 1.125rem;
+                        font-weight: 500;
+                    }
                 }
             }
         }

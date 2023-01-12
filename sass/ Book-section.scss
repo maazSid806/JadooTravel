@@ -34,13 +34,14 @@
                     color: #181e4b;
                     font-size: 3.125rem;
                     @media (max-width: 992px) {
-                        font-size: 20px;
+                        font-size: 3.2rem;
                     }
                 }
             }
             .booking-bar {
                 padding: 30px 10px;
                 display: flex;
+                padding: 15px 40px;
                 flex-direction: column;
                 gap: 70px;
                 .card {
@@ -49,7 +50,12 @@
                     gap: 15px;
                     @media (max-width: 992px) {
                         padding: 15px 10px;
-                       
+                        max-width: 300px;
+                        margin: 0 auto;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        text-align: center;
                     }
                     @media (max-width: 767px) {
                         padding: 15px 10px;
@@ -77,10 +83,13 @@
             }
         }
         .section-2 {
-            padding: 100px 150px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
 
             @media (max-width: 992px) {
-                padding: 15px 10px;
+                display: flex;
+                justify-content: center;
             }
             .img-div {
                 @media (max-width: 992px) {
@@ -92,7 +101,6 @@
                     max-width: 100%;
                     filter: drop-shadow(34px -21px 36px rgba(89, 177, 230, 0.2))
                         drop-shadow(-6px 8px 12px rgba(211, 211, 211, 0.5));
-                  
                 }
             }
         }

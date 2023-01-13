@@ -12,6 +12,9 @@
 .spacer-50{
     padding-top: 50px;
 }
+.something{
+    background-image: url("https://uploads-ssl.webflow.com/6170700…/61828f1…_circles-graphics-rotate.svg), url(https://uploads-ssl.webflow.com/6170700…/618285c…_circles-graphics.svg")
+}
 
 
 @import"./sass/ header.scss";
@@ -22,3 +25,5 @@
 @import"./sass/ Book-section.scss";
 @import"./sass/ section-testimonials.scss";
 @import"./sass/ section-logos.scss";
+@import"./sass/ subscription-section.scss";
+@import"./sass/ footer.scss";

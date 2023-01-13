@@ -11,6 +11,7 @@
             display: flex;
             flex-direction: column;
             gap: 30px;
+
             p {
                 font-family: Poppins, sans-serif;
                 color: #5e6282;
@@ -29,40 +30,49 @@
         }
         .testimonial-slider {
             padding-top: 60px;
+            button {
+                &.testimonial-slider-prev-button {
+                    rotate: 182deg;
+                    border: none;
+                    background-color: transparent;
+                }
+                &.testimonial-slider-right-button {
+                    border: none;
+                    background-color: transparent;
+                }
+            }
             .item {
-                .item-wrapper{
-                           box-shadow:0 5px 18px -2px rgba(0, 0, 0, 0.13); ;
-                @media (max-width: 768px) {
-                   
-                    padding: 10px 29px 30px;
-                    text-align: center;
-                }
-                img {
-                    top: 5px;
-                    border-radius: 50%;
-                }
-                .section-2-wrapper {
-                   
-                    position: relative;
-                    padding: 78px 29px 30px;
-                    border-radius: 10px;
-                    
-                   
+                padding: 20px;
+                .item-wrapper {
+                    padding: 20px;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
-                    p {
-                        font-family: Poppins, sans-serif;
-                        color: #5e6082;
+                    @media (max-width: 768px) {
+                        text-align: center;
                     }
-                    h1 {
-                        padding-top: 18px;
-                        font-family: Poppins, sans-serif;
-                        color: #5e6282;
-                        font-size: 1.125rem;
-                        font-weight: 500;
+                    img {
+                        top: 5px;
+                        border-radius: 50%;
+                    }
+                    .section-2-wrapper {
+                        position: relative;
+                        padding-top: 80px;
+                        border-radius: 10px;
+
+                        p {
+                            font-family: Poppins, sans-serif;
+                            color: #5e6082;
+                        }
+                        h1 {
+                            padding-top: 18px;
+                            font-family: Poppins, sans-serif;
+                            color: #5e6282;
+                            font-size: 1.125rem;
+                            font-weight: 500;
+                        }
                     }
                 }
             }
-        }
         }
     }
 }

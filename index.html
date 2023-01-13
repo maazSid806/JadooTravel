@@ -470,12 +470,9 @@
                             <img src="sass/avatar.svg" alt="" />
                             <div class="section-2-wrapper">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Orci, egestas convallis
-                                    varius ut placerat urna eleifend pretium.
-                                    Venenatis non ut nisl vulputate nulla massa
-                                    nulla. Mattis lacus amet nunc tellus, sed
-                                    metus.
+                                    “After going through a number of sites, I
+                                    had to settle for Jadoo because honestly it
+                                    was a no brainer trying someone else”
                                 </p>
                                 <h1>Sylvia J. White</h1>
                                 <p>Globetrotter</p>
@@ -485,7 +482,7 @@
                 </div>
             </div>
         </div>
-        <div class="spacer-50"></div>
+        <div class="spacer-100"></div>
         <div class="section-logos">
             <div class="section-logos-wrapper">
                 <div class="logos">
@@ -530,6 +527,121 @@
                 </div>
             </div>
         </div>
+        <div class="spacer-100"></div>
+        <div class="subscription-section">
+            <div class="subscription-section-wrapper">
+                <h1>
+                    Subscribe to get information, latest news and other
+                    interesting offers about Cobham
+                </h1>
+
+                <div class="msg-bar">
+                    <div class="input-div">
+                        <img
+                            src="https://uploads-ssl.webflow.com/6170700f1a1db6b3a0ac16ed/618282ada7bbc94aa4c6da0d_icon-inbox.svg"
+                            loading="lazy"
+                            alt="Envelope icon"
+                            class="icon-envelope hide-mobile-portrait"
+                        />
+                        <input
+                            type="email"
+                            class="subscriibe-form_input w-input"
+                            maxlength="256"
+                            name="email"
+                            data-name="Email"
+                            placeholder="  "
+                            id="email"
+                            required=""
+                        />
+                    </div>
+                    <div class="button">
+                        <button>subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer-100"></div>
+        <footer>
+            <div class="footer-wrapper">
+                <div class="part-1">
+                    <h1>Jadoo.</h1>
+                    <p>
+                        Book your trip in minute, get full control for much
+                        longer
+                    </p>
+                </div>
+                <div class="part-2">
+                    <h1>Company</h1>
+                    <nav>
+                        <ul>
+                            <li>About</li>
+                            <li>Careers</li>
+                            <li>Mobile</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="part-2">
+                    <h1>Contact</h1>
+                    <nav>
+                        <ul>
+                            <li>Help/FAQ</li>
+                            <li>Press</li>
+                            <li>Affiliates</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="part-2">
+                    <h1>More</h1>
+                    <nav>
+                        <ul>
+                            <li>AirLine Fees</li>
+                            <li>Airline</li>
+                            <li>Low fare tips</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="part-3">
+                    <div class="icons-bar">
+                        <img
+                            src="https://uploads-ssl.webflow.com/6170700f1a1db6b3a0ac16ed/6182cf4274a44e6e7da73a69_social-facebook.svg"
+                            loading="lazy"
+                            alt="Facebook icon"
+                            class="icon-social"
+                        />
+                        <img
+                            src="https://uploads-ssl.webflow.com/6170700f1a1db6b3a0ac16ed/6182d0e504bd110c32a33720_social-instagram.png"
+                            loading="lazy"
+                            alt="Instagram icon"
+                            class="icon-social"
+                        />
+                        <img
+                            src="https://uploads-ssl.webflow.com/6170700f1a1db6b3a0ac16ed/6182cf4143539f10af511cb4_social-twitter.svg"
+                            loading="lazy"
+                            alt="Twitter icon"
+                            class="icon-social"
+                        />
+                    </div>
+                    <p>Discover our app</p>
+                    <div class="buttons-bar">
+                        <img
+                            src="https://uploads-ssl.webflow.com/6170700f1a1db6b3a0ac16ed/617938ce9e2702000e6cd442_Google-Play.svg"
+                            loading="lazy"
+                            alt="Google App icon"
+                            class="margin-right-5px"
+                        />
+                        <img
+                            src="https://uploads-ssl.webflow.com/6170700f1a1db6b3a0ac16ed/617938ce5c0563f505c2699e_Play-Store.svg"
+                            loading="lazy"
+                            alt="Apple store icon"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div class="last-footer">
+                <p>All rights reserved@jadoo.co</p>
+            </div>
+        </footer>
+        <div class="spacer-100"></div>
     </body>
 
     <script
@@ -552,16 +664,12 @@
                 speed: 500,
                 fade: true,
                 cssEase: "linear",
-            });
-        });
-        $(document).ready(function () {
-            $(".slider").slick({
-                autoplay: true,
-                arrows: true,
-                prevArrow:
-                    "<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
-                nextArrow:
-                    "<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+                prevArrow: `<button type='button' class='testimonial-slider-prev-button'><svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893C0.683417 -0.0976315 1.31658 -0.0976315 1.70711 0.292893L0.292893 1.70711ZM8 8L8.70711 8.70711L8 9.41421L7.29289 8.70711L8 8ZM14.2929 0.292893C14.6834 -0.0976315 15.3166 -0.0976315 15.7071 0.292893C16.0976 0.683417 16.0976 1.31658 15.7071 1.70711L14.2929 0.292893ZM1.70711 0.292893L8.70711 7.29289L7.29289 8.70711L0.292893 1.70711L1.70711 0.292893ZM7.29289 7.29289L14.2929 0.292893L15.7071 1.70711L8.70711 8.70711L7.29289 7.29289Z" fill="#3E2E4D"/>
+</svg></button>`,
+                nextArrow: `<button type='button' class='testimonial-slider-right-button'><svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893C0.683417 -0.0976315 1.31658 -0.0976315 1.70711 0.292893L0.292893 1.70711ZM8 8L8.70711 8.70711L8 9.41421L7.29289 8.70711L8 8ZM14.2929 0.292893C14.6834 -0.0976315 15.3166 -0.0976315 15.7071 0.292893C16.0976 0.683417 16.0976 1.31658 15.7071 1.70711L14.2929 0.292893ZM1.70711 0.292893L8.70711 7.29289L7.29289 8.70711L0.292893 1.70711L1.70711 0.292893ZM7.29289 7.29289L14.2929 0.292893L15.7071 1.70711L8.70711 8.70711L7.29289 7.29289Z" fill="#3E2E4D"/>
+</svg></button>`,
             });
         });
     </script>

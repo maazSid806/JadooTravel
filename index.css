@@ -27,7 +27,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 15px;
+  padding: 17px 15px;
 }
 header .nav_menu {
   display: flex;
@@ -65,7 +65,7 @@ header .nav_menu .nav_link.nav-button {
 .switch {
   display: none;
 }
-@media (max-width: 800px) {
+@media (max-width: 991px) {
   .switch {
     display: block !important;
     width: 40px;
@@ -90,7 +90,7 @@ header .nav_menu .nav_link.nav-button {
 }
 .mobileNav .mobile-nav-top-bar {
   display: flex;
-  padding: 10px 10px;
+  padding: 0px 15px;
   justify-content: space-between;
   align-items: center;
 }
@@ -198,6 +198,7 @@ header .nav_menu .nav_link.nav-button {
   }
 }
 .main-hero-section .section-1 .section1-wrapper .buttons button {
+  cursor: pointer;
   background-color: #f1a501;
   color: aliceblue;
   border: none;
@@ -213,6 +214,7 @@ header .nav_menu .nav_link.nav-button {
   }
 }
 .main-hero-section .section-1 .section1-wrapper .buttons .special-button {
+  cursor: pointer;
   display: flex;
   align-items: center;
   padding: 0px;
@@ -353,6 +355,7 @@ header .nav_menu .nav_link.nav-button {
 .Destination-section .destination-section-wrapper .design-item .design {
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 .Destination-section .destination-section-wrapper .design-item .design .img {
   flex: 1;
@@ -437,6 +440,7 @@ header .nav_menu .nav_link.nav-button {
 .Destination-section .destination-section-wrapper .design-item .design {
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 .Destination-section .destination-section-wrapper .design-item .design .img {
   flex: 1;
@@ -524,11 +528,10 @@ header .nav_menu .nav_link.nav-button {
   }
 }
 .Book-section .book-section-wrapper .section-1 .booking-bar {
-  padding: 30px 10px;
   display: flex;
   padding: 15px 40px;
   flex-direction: column;
-  gap: 70px;
+  gap: 30px;
 }
 .Book-section .book-section-wrapper .section-1 .booking-bar .card {
   padding-right: 40px;
@@ -626,14 +629,43 @@ header .nav_menu .nav_link.nav-button {
 .section-testimonials .section-testimonials-wrapper .testimonial-slider {
   padding-top: 60px;
 }
+.section-testimonials .section-testimonials-wrapper .testimonial-slider button {
+  position: relative;
+}
 .section-testimonials .section-testimonials-wrapper .testimonial-slider button.testimonial-slider-prev-button {
+  top: 151px;
+  right: 67px;
+  position: absolute;
   rotate: 182deg;
   border: none;
   background-color: transparent;
 }
+@media (max-width: 1100px) {
+  .section-testimonials .section-testimonials-wrapper .testimonial-slider button.testimonial-slider-prev-button {
+    bottom: 350px;
+  }
+}
 .section-testimonials .section-testimonials-wrapper .testimonial-slider button.testimonial-slider-right-button {
+  bottom: 100px;
+  right: 67px;
+  position: absolute;
   border: none;
   background-color: transparent;
+}
+@media (max-width: 1100px) {
+  .section-testimonials .section-testimonials-wrapper .testimonial-slider button.testimonial-slider-right-button {
+    bottom: 150px;
+  }
+}
+@media (max-width: 504px) {
+  .section-testimonials .section-testimonials-wrapper .testimonial-slider button.testimonial-slider-right-button {
+    bottom: 200px;
+  }
+}
+@media (max-width: 334px) {
+  .section-testimonials .section-testimonials-wrapper .testimonial-slider button.testimonial-slider-right-button {
+    bottom: 250px;
+  }
 }
 .section-testimonials .section-testimonials-wrapper .testimonial-slider .item {
   padding: 20px;
@@ -848,11 +880,13 @@ footer .footer-wrapper .part-1 {
   }
 }
 footer .footer-wrapper .part-1 h1 {
+  cursor: pointer;
   font-family: Poppins, sans-serif;
   font-size: 2.75rem;
   font-weight: 500;
 }
 footer .footer-wrapper .part-1 p {
+  cursor: pointer;
   max-width: 200px;
   color: #5e6282;
   font-size: 0.8125rem;
@@ -872,6 +906,7 @@ footer .footer-wrapper .part-2 {
   }
 }
 footer .footer-wrapper .part-2 h1 {
+  cursor: pointer;
   font-family: Poppins, sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
@@ -883,6 +918,7 @@ footer .footer-wrapper .part-2 nav ul {
   list-style: none;
 }
 footer .footer-wrapper .part-2 nav ul li {
+  cursor: pointer;
   font-family: Poppins, sans-serif;
   color: #5e6282;
   font-size: 1.125rem;
@@ -895,6 +931,7 @@ footer .footer-wrapper .part-3 {
   gap: 10px;
 }
 footer .footer-wrapper .part-3 .icons-bar {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   gap: 25px;
@@ -912,9 +949,11 @@ footer .footer-wrapper .part-3 .buttons-bar {
   gap: 5px;
 }
 footer .footer-wrapper .part-3 .buttons-bar img {
+  cursor: pointer;
   width: 100%;
 }
 footer .last-footer {
+  cursor: pointer;
   display: flex;
   justify-content: center;
 }

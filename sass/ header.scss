@@ -4,7 +4,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 15px;
+    padding: 17px 15px;
 
     .nav_menu {
     display: flex;
@@ -45,7 +45,7 @@ header {
 
 .switch {
     display: none;
-    @media (max-width: 800px) {
+    @media (max-width: 991px) {
         display: block !important;
         width: 40px;
         background-color: transparent;
@@ -68,7 +68,7 @@ header {
     overflow-y: auto;
     .mobile-nav-top-bar {
         display: flex;
-        padding: 10px 10px;
+        padding: 0px 15px;
         justify-content: space-between;
         align-items: center;
         .logo {

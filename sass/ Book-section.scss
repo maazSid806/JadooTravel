@@ -39,15 +39,16 @@
                 }
             }
             .booking-bar {
-                padding: 30px 10px;
+                
                 display: flex;
                 padding: 15px 40px;
                 flex-direction: column;
-                gap: 70px;
+                gap: 30px;
                 .card {
                     padding-right: 40px;
                     display: flex;
                     gap: 15px;
+                   
                     @media (max-width: 992px) {
                         padding: 15px 10px;
                         max-width: 300px;
@@ -98,6 +99,7 @@
                     justify-content: center;
                 }
                 img {
+                   
                     max-width: 100%;
                     filter: drop-shadow(34px -21px 36px rgba(89, 177, 230, 0.2))
                         drop-shadow(-6px 8px 12px rgba(211, 211, 211, 0.5));

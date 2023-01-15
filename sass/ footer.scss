@@ -31,6 +31,7 @@ footer {
             
         }
         .part-1 {
+           
             display: flex;
             flex-direction: column;
             gap: 30px;
@@ -41,17 +42,20 @@ footer {
                 flex-direction: column;
             }
             h1 {
+                cursor: pointer;
                 font-family: Poppins, sans-serif;
                 font-size: 2.75rem;
                 font-weight: 500;
             }
             p {
+                cursor: pointer;
                 max-width: 200px;
                 color: #5e6282;
                 font-size: 0.8125rem;
             }
         }
         .part-2 {
+            
             margin-top: 1.3rem;
             display: flex;
             flex-direction: column;
@@ -64,17 +68,20 @@ footer {
             }
 
             h1 {
+                cursor: pointer;
                 font-family: Poppins, sans-serif;
                 font-size: 1.125rem;
                 font-weight: 700;
             }
             nav {
                 ul {
+                  
                     display: flex;
                     flex-direction: column;
                     gap: 10px;
                     list-style: none;
                     li {
+                        cursor: pointer;
                         font-family: Poppins, sans-serif;
                         color: #5e6282;
                         font-size: 1.125rem;
@@ -89,6 +96,7 @@ footer {
             align-items: center;
             gap: 10px;
             .icons-bar {
+                cursor: pointer;
                 display: flex;
                 justify-content: center;
                 gap: 25px;
@@ -97,6 +105,7 @@ footer {
                 }
             }
             p {
+              
                 font-family: Poppins, sans-serif;
                 color: #5e6282;
             }
@@ -105,12 +114,14 @@ footer {
                 grid-template-columns: 1fr 1fr;
                 gap: 5px;
                 img {
+                    cursor: pointer;
                     width: 100%;
                 }
             }
         }
     }
     .last-footer {
+        cursor: pointer;
         display: flex;
         justify-content: center;
         p {
